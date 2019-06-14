@@ -1,0 +1,53 @@
+@media  (max-width: 1150px)  {
+    .main__image {
+        height: auto;
+    }
+
+    .header__navigation__link {
+        font-size: 1.3rem;
+        padding: 27px 15px;  
+    }
+
+}
+
+
+
+
+
+@media  (max-width: 700px)  {
+
+    .nav__dropdown {
+        display: block;
+    }
+
+    .logo {
+        width: 80px;
+        height: 50px;
+    }
+
+    .header__navigation {
+        background-color: #fff;
+    }
+
+    .header__navigation__left {
+        height: auto;
+    }
+
+    .header__navigation__ul {
+        display: none;
+    }
+
+    .main__contact--img {
+        width: 96%;
+        margin-left: 30px;
+    }
+
+    .main__contact__container--right {
+        width: 500px;
+        height: 510px;
+    }
+
+    .gallery-content__div {
+        width: 100%;
+    }
+}
