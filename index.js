@@ -33,7 +33,7 @@ function toggleblur() {
      after.style.display = 'none'; 
      top.visible_id = 'before';
    }
-   var time = setTimeout("toggleblur()",33000);
+   var time = setTimeout("toggleblur()",3000);
  } 
 
 
