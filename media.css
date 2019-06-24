@@ -21,8 +21,8 @@
     }
 
     .logo {
-        width: 80px;
-        height: 50px;
+        width: 60px;
+        height: 40px;
     }
 
     .header__navigation {
@@ -37,22 +37,33 @@
         display: none;
     }
 
+    .section__header {
+        margin: 50px 0 20px 0;
+    }
+
     .main__image__text {
         height: 40px;
+        font-size: 1.2rem
     }
 
-    .main__contact--img {
-        width: 96%;
-        margin-left: 30px;
-    }
-
-    .main__contact__container--right {
-        width: 500px;
-        height: 510px;
+    .client__content img {
+        width: 130px;
+        height: 95px;
+        margin: 5px;
     }
 
     .gallery-content__div {
         width: 100%;
+    }
+
+    .gallery__section__div{
+        width:110px;
+        height: 80px;
+    
+    }
+    
+    .gallery__section__div img {
+        height: 80px;
     }
 
     .contact {
