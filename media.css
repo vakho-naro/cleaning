@@ -10,7 +10,17 @@
 
 }
 
+@media  (max-width: 1050px)  {
+    .main__image {
+        height: auto;
+    }
 
+    .header__navigation__link {
+        font-size: 1.3rem;
+        padding: 27px 15px;  
+    }
+
+}
 
 
 
@@ -23,6 +33,14 @@
     .logo {
         width: 60px;
         height: 40px;
+    }
+
+    .display {
+        display: none;
+    }
+
+    .none {
+        display: block;
     }
 
     .header__navigation {
