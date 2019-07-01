@@ -4,20 +4,54 @@
     }
 
     .header__navigation__link {
-        font-size: 1.3rem;
-        padding: 27px 15px;  
+        font-size: 1.2rem;
+        padding:  30px 12px 28px;  
     }
 
 }
 
 @media  (max-width: 1050px)  {
-    .main__image {
-        height: auto;
+    .contact__container__elements h5 {
+        font-size: 1.2rem;
+        margin-bottom: 20px
+    }
+
+    .contact__p {
+        padding:  5px;
+        font-size: 1rem;
+    }
+
+}
+
+@media  (max-width: 900px)  {
+    .logo {
+        width: 90px;
+        height: 60px;
+        margin-top: 10px;
     }
 
     .header__navigation__link {
-        font-size: 1.3rem;
-        padding: 27px 15px;  
+        font-size: 1rem;
+        padding:  30px 8px 32px;  
+    }
+
+    .header__lang {
+        width: 25px;
+        height: 25px;
+        margin: 29px 0 0 5px;
+    }
+
+    .main__image__text {
+        height: 70px;
+        font-size: 1.4rem
+    }
+
+    .contact__p {
+        font-size: 0.7rem;
+    }
+
+    .contact__container__elements h5 {
+        font-size: 1rem;
     }
 
 }

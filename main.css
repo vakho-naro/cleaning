@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     position: relative;
 }
@@ -62,7 +66,7 @@ body {
 /* NAVIGATION */
 
 .header__navigation {
-    background-color: #1b1b185e;
+    background-color: #1b1b1891;
     width: 100%;
     top: 0;
     left: 0;
@@ -78,9 +82,24 @@ body {
 
 .header__navigation__link {
     color: #fff;
-    font-size: 1.5rem;
-    padding: 27px 30px;  
+    font-size: 1.3rem;
+    padding: 29px 20px;  
     text-decoration: none;
+    line-height: 80px;
+}
+
+.header__lang {
+    /* color: #fff;
+    font-size: 1rem;
+    padding: 34px 20px 28px;  
+    text-decoration: none; */
+    width: 30px;
+    height: 30px;
+    margin: 26px 0 0 20px;
+}
+
+.header__lang:hover {
+    color: #94ecec;
 }
 
 .header__navigation__link:hover {
@@ -103,11 +122,18 @@ body {
     position: relative;
     display: none;
   }
+
+  .nav__lang {
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    display: block; 
+  }
   
   .nav__dropdown--content {
     display: none;
     position: absolute;
-    background-color: #d2d2d2;
+    background-color: #f1f1f1;
     min-width: 160px;
     right: -30px;
     top: 44px;
@@ -150,13 +176,13 @@ body {
 
 .main__image {
     width: 100%;
-    height: 800px;
+    height: 100vh;
 }
 
 .main__image__text {
-    width: 40%;
+    width: 35%;
     height: 80px;
-    background-color: #ab0a08;
+    background-color: #7d130d;
     position: absolute;
     bottom: 40%;
     right: 0;
@@ -180,14 +206,18 @@ body {
 .services__container {
     width: 317px;
     height: 330px;
-    background-color: #ffffffc2;
+    background-color: #fff;
     margin: 1%;
     text-align: center;
-    -webkit-transition: .3s;
-    transition: .3s;
+    /* -webkit-transition: 1s;
+    transition: 1s; */
     padding: 30px 20px;
     box-shadow: 0 1px 4px #00000029;
 }
+
+/* .services__container:hover {
+    height: 500px;
+  } */
 
 .services__container i {
     font-size: 20px;
@@ -197,8 +227,6 @@ body {
     line-height: 60px;
     margin-bottom: 30px;
     border-radius: 50%;
-    -webkit-transition: .3s;
-    transition: .3s;
 }
 
 
@@ -206,17 +234,12 @@ body {
 
 .gallery {
     background-color: #f1f1f1;
-
 }
 
 .gallery-content {
-    padding:0.01em 16px;
-    max-width:1600px
-}
-
-.gallery-content__div {
-    max-width:1400px;
-    width: 1000px;
+    padding: 16px;
+    max-width: 1000px;
+    width: 90%
 }
 
 .gallery__section--opacity {
@@ -297,6 +320,10 @@ body {
     background-color: #56b9e1;
 }
 
+.contact__header {
+    margin: 45px 0 50px 0
+}
+
 .contact__container {
     width: 100%;
     height: auto;
@@ -346,7 +373,7 @@ body {
 }
 
 .footer__text {
-    color: #fff;
+    color: #afafaf;
     font-size: 1.1rem;
 }
 
