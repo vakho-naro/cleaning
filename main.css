@@ -347,6 +347,10 @@ body {
     border: none;
 }
 
+.contact__mobile {
+    padding-bottom: 20px;
+}
+
 .contact__p {
     padding:  5px;
     font-size: 1.2rem;

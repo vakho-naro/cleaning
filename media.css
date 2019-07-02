@@ -93,6 +93,10 @@
         margin: 50px 0 20px 0;
     }
 
+    .main__image {
+        margin-top: 54px;
+    }
+
     .main__image__text {
         height: 40px;
         font-size: 1.2rem
@@ -102,6 +106,12 @@
         width: 130px;
         height: 95px;
         margin: 5px;
+    }
+
+    .gallery-content {
+        padding: 16px 0; 
+        max-width: 1000px;
+        width: 100%;
     }
 
     .gallery-content__div {
@@ -119,13 +129,17 @@
     }
 
     .contact {
-        width: calc(100% - 12%);
-        margin: 0 auto; 
+        width: calc(100% - 20%);
+        margin: 40px auto; 
     }
 
-    .contact__container {
-        width: auto;
-        height: auto;
-        margin: 10px;
+    .contact__header {
+        margin: 45px 0 20px 0;
     }
+
+    .contact__p {
+        font-size: 1rem;
+        padding: 7px;
+    }
+
 }
