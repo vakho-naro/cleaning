@@ -308,7 +308,7 @@ body {
 
 .about-us {
     background-color: #005e84;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     color: #ffcc33 ;
 }
 
@@ -316,10 +316,6 @@ body {
 .about-us__content {
     width: 70%;
 
-}
-
-.about-us__content--p strong{
-    color: #454b46;
 }
 
 /* CLIENTS */
