@@ -11,6 +11,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "edita", serif;
+    
+    font-family: "menu-font";
 }
 
 .wrapper {
@@ -66,7 +68,7 @@ body {
 /* NAVIGATION */
 
 .header__navigation {
-    background-color: #1b1b1891;
+    background-color: #002533c7;
     width: 100%;
     top: 0;
     left: 0;
@@ -136,7 +138,7 @@ body {
     background-color: #f1f1f1;
     min-width: 160px;
     right: -30px;
-    top: 44px;
+    top: 47px;
     box-shadow: 0px 8px 16px 0px #00000033;
     z-index: 1;
   }
@@ -182,9 +184,9 @@ body {
 .main__image__text {
     width: 35%;
     height: 80px;
-    background-color: #7d130d;
+    background-color: #011b25e8;
     position: absolute;
-    bottom: 40%;
+    bottom: 30%;
     right: 0;
     font-size: 1.8rem;
     display: flex;
@@ -204,8 +206,8 @@ body {
 }
 
 .services__container {
-    width: 317px;
-    height: 330px;
+    width: 340px;
+    height: 370px;
     background-color: #fff;
     margin: 1%;
     text-align: center;
@@ -218,6 +220,9 @@ body {
 /* .services__container:hover {
     height: 500px;
   } */
+  .services__container img {
+    margin-bottom: 30px;
+}
 
 .services__container i {
     font-size: 20px;
@@ -234,6 +239,22 @@ body {
 
 .gallery {
     background-color: #f1f1f1;
+}
+
+.gallery__section__div {
+    position: relative;
+}
+
+.gallery__section__text {
+    width: 100%;
+    background-color: #4633329e;
+    position: absolute;
+    top: 10%;
+    font-size: 1rem;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .gallery-content {
@@ -286,8 +307,9 @@ body {
 /* ABOUT */
 
 .about-us {
-    background-color: #56b9e1;
+    background-color: #005e84;
     padding-bottom: 30px;
+    color: #ffcc33 ;
 }
 
 
@@ -317,7 +339,8 @@ body {
 /* CONTACT */
 
 .contact {
-    background-color: #56b9e1;
+    background-color: #005e84;
+    color: #fff;
 }
 
 .contact__header {
@@ -327,9 +350,7 @@ body {
 .contact__container {
     width: 100%;
     height: auto;
-    color:  #000;
     padding-bottom: 50px;
-    background-color: #56b9e1;
 }
 
 .contact__container__elements {
@@ -356,9 +377,13 @@ body {
     font-size: 1.2rem;
 }
 
+.contact__p i{
+    color: #aecbda;
+}
+
 .contact__p a{
     text-decoration: none;
-    color: #6f5545;
+    color: #aecbda;
     cursor: pointer;
 }
 
