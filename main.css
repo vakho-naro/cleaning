@@ -11,8 +11,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "edita", serif;
-    
-    font-family: "menu-font";
 }
 
 .wrapper {
@@ -85,6 +83,7 @@ body {
 .header__navigation__link {
     color: #fff;
     font-size: 1.3rem;
+    text-transform: uppercase;   
     padding: 29px 20px;  
     text-decoration: none;
     line-height: 80px;
@@ -162,6 +161,7 @@ body {
 
 .section__header {
     margin: 80px 0 30px 0;
+    text-transform: uppercase;   
 }
 
 .main__image__container {
@@ -189,6 +189,7 @@ body {
     bottom: 30%;
     right: 0;
     font-size: 1.8rem;
+    text-transform: uppercase;   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -340,7 +341,8 @@ body {
 }
 
 .contact__header {
-    margin: 45px 0 50px 0
+    margin: 45px 0 50px 0;
+    text-transform: uppercase;   
 }
 
 .contact__container {
@@ -352,12 +354,12 @@ body {
 .contact__container__elements {
     margin: 0;
     width: 25%;
-    border-right: 1px solid black
+    border-right: 1px solid black;
 }
 
 .contact__container__elements h5 {
     font-size: 1.4rem;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .social-media {
