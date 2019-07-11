@@ -90,13 +90,15 @@ body {
 }
 
 .header__lang {
-    /* color: #fff;
-    font-size: 1rem;
-    padding: 34px 20px 28px;  
-    text-decoration: none; */
     width: 30px;
     height: 30px;
     margin: 26px 0 0 20px;
+}
+
+.header__lang--eng {
+    width: 25px;
+    height: 25px;
+    margin: 30px 0 0 20px;
 }
 
 .header__lang:hover {
@@ -104,7 +106,7 @@ body {
 }
 
 .header__navigation__link:hover {
-    background-color: #454b46;
+    background-color: #001821;
 }
 
 /* DROPDOWN */
@@ -212,27 +214,16 @@ body {
     background-color: #fff;
     margin: 1%;
     text-align: center;
-    /* -webkit-transition: 1s;
-    transition: 1s; */
     padding: 30px 20px;
     box-shadow: 0 1px 4px #00000029;
 }
 
-/* .services__container:hover {
-    height: 500px;
-  } */
-  .services__container img {
-    margin-bottom: 30px;
+.services__container h3 {
+    margin-bottom: 10px;
 }
 
-.services__container i {
-    font-size: 20px;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #ddd;
-    line-height: 60px;
+.services__container img {
     margin-bottom: 30px;
-    border-radius: 50%;
 }
 
 
@@ -377,6 +368,7 @@ body {
 
 .contact__p i{
     color: #aecbda;
+    margin-right: 10px;
 }
 
 .contact__p a{
